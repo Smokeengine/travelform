@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js"></script>
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <!-- <video autoplay loop muted>
+        <source src="smokeengin.mp4">
+    </video>-->
+    <!--<img src="beach.jpeg" alt="image of train"></img>-->
+    <div class="container">
+        
+        <h1>welcome..!</h1>
+        <p>join the ride to unleash the fun. </p>
+        
+        <form name="trip" action="iex.php" method="post" onsubmit="validate()" enctype="multipart/form-data">
+            <input type="text" name="name"  class="input" placeholder="enter your name" >
+            <input type="tel" name="rollnumber"  class="input" placeholder="enter your rollnumber">
+            <input type="number" name="phnno"  class="input" placeholder="enter your phone number">
+            <div class="btn1">
+               <b> gender:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" class="radio" name="s" value="male">male
+                &nbsp;&nbsp;<input type="radio" name="s" class="radio"  value="female">  female<br>
+                
+               <b> mode of transport:</b>&nbsp;&nbsp;<input type="radio" name="q" class="radio" value="train">train
+                &nbsp;&nbsp;<input type="radio" name="q" class="radio" value="pvt bus">pvt bus
+                &nbsp;&nbsp;<input type="radio" name="q" class="radio" value="car">car<br>
+                </div>
+            <textarea name="txtarea" class="input"  cols="30" rows="8" placeholder="name the place which you want to vist..."></textarea>
+            <input type="submit" class="btn">
+            <input type="reset" class="btn">
+        </form>
+        <!-- <h4 id="c3">one by</h4> -->
+        <h2 id="c4">smoke engine..</h2>
+    </div>
+  
+</body>
+</html>

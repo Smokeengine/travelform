@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    background-image: url("beach.jpeg");
+    background-size: 100%;
+    background-color: rgb(0, 183, 255);
+    background-blend-mode:hard-light;
+    /* overflow-y: hidden; */
+}
+
+video{
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+.container{
+    
+    max-width: 80%;
+    margin: auto;
+    
+    
+}
+
+.container p{
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(25, 25, 129);
+    font-weight: bolder;
+}
+
+h1{
+    margin: px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: green;
+}
+
+.input,textarea{
+    width: 80%;
+    margin: 9px ;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+
+}
+
+.btn{
+    border: 1px solid magenta;
+    background-color: transparent;
+    /* background-color: rgb(25, 25, 129); */
+    color: #000;
+     width: 20%;
+     margin: 5px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: medium;
+   padding: 3px 3px;
+}
+
+.btn:hover
+{
+    background-color: rgb(25, 25, 129);
+    color: yellow;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn1{
+    width: 80%;
+    border: 2px solid black;
+     padding: 13px 13px;
+     font-size: 18px;
+     background-color: white;
+     margin: 9px;
+    border-radius: 9px;
+}
+
+#c3{
+    font-family: 'Architects Daughter', cursive;
+    position: absolute;
+    right: 60px;
+    bottom: -19px;
+    color: orchid;
+}
+
+ #c4{
+    font-family: 'Architects Daughter', cursive;
+    position: absolute;
+    right: 16px;
+    bottom: -19px;
+    color: orchid;
+    font-weight: bolder;
+ }  
+
+ img{
+    width: 100vw;
+    opacity: 1.2;
+    position: absolute;
+    z-index: -1;
+    left: -7px;
+    top: -95px;
+    overflow: hidden;
+ }
+
+.r{
+    color: magenta;
+    letter-spacing: 2px;
+}
